@@ -1,27 +1,20 @@
 # Sobre 
 
-A aplicação consiste em API Rest para cadastro de empresas com intuito de criar, atualizar, deletar e consultar.
-CRUD básico desenvolvido utilizando Java / Spring e o banco de dados H2.
+- A aplicação consiste em uma API Rest para cadastro de empresas com intuito de criar, atualizar, deletar e consultar.
+
+- CRUD básico desenvolvido utilizando Java / Spring e o banco de dados H2.
 
 # Como rodar
-Clone o projeto: 
+- Clone o projeto: https://github.com/joaopguerra/api-clientes.git
+- Rode a classe ApiClientesApplication.
+#### Com o projeto rodando
+- No Postman use como host o link http://localhost:8080
+- Para visualizar o banco de dados no navegador entre em http://localhost:8080/h2-console/login.jsp
+e clique em Connect.
 
-# Tecnologias utilizadas
-## Back end
-- Java
-- Spring Boot
-- JPA / Hibernate
-- Maven
+`Pré-requisitos: Java 11`
 
-## Implantação
-- Back end: Heroku
-- Banco de dados: H2
-
-## Backend
-Pré-requisitos: Java 11
-
-
-## Operações disponíveis
+# Operações disponíveis
 
 - POST   /clientes |  Criar um cliente 
 -  GET   clientes/id |  Listar um cliente por id 
@@ -29,9 +22,20 @@ Pré-requisitos: Java 11
 -  PUT   /clientes/id |  Atualizar cliente 
 -  DELETE   /clientes/id |  Deletar cliente 
 
+# Documentação - Swagger
+http://localhost:8080/swagger-ui.html#/
+
+# Tecnologias utilizadas
+## Back end
+- Java
+- Spring Boot
+- JPA / Hibernate
+- Maven
+## Banco de dados
+- H2
+
 
 # Autor
-
 João Guerra
 
 https://www.linkedin.com/in/joaopguerra-/
