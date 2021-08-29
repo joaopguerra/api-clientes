@@ -33,6 +33,9 @@ http://localhost:8080/swagger-ui.html#/
 - Maven
 ## Banco de dados
 - H2
+## Testes unitários
+- jUnit 5
+- Mockito
 
 
 # Autor
