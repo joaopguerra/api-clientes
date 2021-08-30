@@ -11,6 +11,7 @@
 - No Postman use como host o link http://localhost:8080
 - Para visualizar o banco de dados no navegador entre em http://localhost:8080/h2-console/login.jsp
 e clique em Connect.
+- Para visualizar a documentação acesse http://localhost:8080/swagger-ui.html#/
 
 `Pré-requisitos: Java 11`
 
